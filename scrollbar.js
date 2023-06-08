@@ -85,4 +85,7 @@ scrollPoints.forEach((point, index) => {
 });
 }
 
-scrollEffect(); 
+if(window.matchMedia('(min-width: 850px)').matches)
+{
+  scrollEffect();
+} 
