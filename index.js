@@ -31,7 +31,7 @@ function moveBox(boxName,initialLeftValue,initialTopValue,finalLeftValue,finalTo
   moveBox(".notesBox",'75%','-50px','100vw','25vh',"7.png",4000,1000);
   moveBox(".chashmaBox",'87.5%','-50px','100vw','12.5vh',"8.png",3000,1000);
 }
-  PerpetualAnimation();
+  // PerpetualAnimation();
 
 
 

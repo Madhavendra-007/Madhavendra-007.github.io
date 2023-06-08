@@ -215,7 +215,7 @@ section {
   left: 12vw;
 }
 #name-container {
-  width: 615px;
+  width: 100%;
   height: 143px;
   font-size: 7.5rem;
   font-family: "Bangers", cursive;
