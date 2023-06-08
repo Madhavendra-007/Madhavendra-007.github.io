@@ -157,7 +157,7 @@ html{
     font-size: 11px;
 }
 .section1Content{
-    top: 20vh;
+    /* top: 20vh; */
     left: 10vw;
 }
 #name-container{
@@ -559,7 +559,7 @@ html{
     }
     .specialityBigDiv{
         height: 80vh;
-        width: 45vw;
+        width: 50vw;
     }
     #specialityBigDiv2{
         height: 70vh;
@@ -578,13 +578,16 @@ html{
 }
 @media screen and (max-width: 750px){
     .specialityBigDiv{
-        width: 50vw;
+        width: 55vw;
     }
 }
 @media screen and (max-width: 670px){
     .specialityBigDiv{
         width: 55vw;
         height: 75vh;
+    }
+    .section3SpecialityDivHeading{
+        height: 14%;
     }
     .specialityLevelGrey{
         width: 30vw;
