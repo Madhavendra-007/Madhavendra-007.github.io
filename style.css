@@ -112,7 +112,7 @@ section {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   background-color: black;
   color: white;
-  border-bottom: 2px solid white;
+  /* border-bottom: 2px solid white; */
 }
 ::-webkit-scrollbar {
   width: 0px;
