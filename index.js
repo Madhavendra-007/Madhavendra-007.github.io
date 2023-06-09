@@ -25,13 +25,13 @@ function moveBox(boxName,initialLeftValue,initialTopValue,finalLeftValue,finalTo
   // moveBox(".htmlBox",'-2.5%','-2.5%','102.5vw','102.5vh',"6.png",8500,600);
   // moveBox(".cssBox",'12.5%','-50px','100vw','87.5vh',"2.png",10000,700);
   moveBox(".jsBox",'25%','-50px','100vw','75vh',"3.png",12000,850);
-  moveBox(".hikeBox",'37.5%','-50px','100vw','62.5vh',"4.png",9000,1000);
-  moveBox(".ideaBox",'50%','-50px','100vw','50vh',"5.png",7000,1000);
+  moveBox(".cssBox",'37.5%','-50px','100vw','62.5vh',"2.png",9000,1000);
+  moveBox(".htmlBox",'50%','-50px','100vw','50vh',"6.png",7000,1000);
   moveBox(".bulbBox",'62.5%','-50px','100vw','37.5vh',"1.png",5000,1000);
   moveBox(".notesBox",'75%','-50px','100vw','25vh',"7.png",4000,1000);
   moveBox(".chashmaBox",'87.5%','-50px','100vw','12.5vh',"8.png",3000,1000);
 }
-  // PerpetualAnimation();
+  PerpetualAnimation();
 
 
 

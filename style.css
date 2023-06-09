@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'transRobotics';
+  src: url('fonts/SF\ TransRobotics.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'transRoboticsBold';
+  src: url('fonts/SF\ TransRobotics\ Bold.ttf.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'transRoboticsExtended';
+  src: url('fonts/SF\ TransRobotics\ Extended.ttf.ttf') format('truetype');
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +21,7 @@ body {
   background: #000;
   overflow-x: hidden;
   width: 100%;
+  height: 100vh;
   font-family: "Open Sans", sans-serif;
 
 }
@@ -89,30 +104,34 @@ body {
   width: 100%;
   filter: drop-shadow(0 0 23px var(--animation-color));
 }
+
+/* *****************************************************HAMBURGER MENU STYLING********************************************  */
+
+#hamburger{
+  width:0px;
+  height: 0px;
+}
+#hamburgerContent{
+  width:0px;
+  height: 0px;
+}
 /* ******************************************************SCROLLBAR AND SECTIONS STYLING*********************************************************** */
 .scrollSnapCont{
-  scroll-snap-type: y proximity;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   overflow-y: scroll;
   height: 100vh;
   width: 100vw;
 }
 section {
-  scroll-snap-align: start;
   height: 100vh;
   width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
   background-color: black;
   color: white;
-  /* border-bottom: 2px solid white; */
+  border-bottom: 3px solid white;
+  position: relative;
+  scroll-snap-align: end;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -178,11 +197,11 @@ section {
 .perpetualAnimationContainer {
   opacity: 0.9;
   height: 100vh;
-  width: auto;
+  width: 50%;
   overflow: hidden;
 }
 .perpetualBox {
-  position: absolute;
+  position: fixed;
   top: -50px;
   height: 40px;
   width: 50px;
@@ -197,12 +216,8 @@ section {
 }
 /* ******************************************SECTION1 CONTENT******************************************  */
 #section1 {
-  position: absolute;
-  top: 0;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  width: 100vw;
   justify-content: center;
   align-items: center;
 }
@@ -290,8 +305,6 @@ section {
 /* ***************************************SECTION2 STARTS HERE******************************************  */
 
 #section2 {
-  position: absolute;
-  top: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -360,8 +373,6 @@ section {
 /* ***************************************SECTION3 STARTS HERE******************************************  */
 
 #section3 {
-  position: absolute;
-  top: 200vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -472,8 +483,7 @@ color: #bfbfbf;
 /* ***************************************************SECTION 4 STARTS HERE*********************************** */
 
 #section4 {
-  position: absolute;
-  top: 300vh;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
