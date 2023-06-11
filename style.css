@@ -117,7 +117,7 @@ body {
 }
 /* ******************************************************SCROLLBAR AND SECTIONS STYLING*********************************************************** */
 .scrollSnapCont{
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
   scroll-behavior: smooth;
   overflow-y: scroll;
   height: 100vh;
