@@ -124,7 +124,7 @@ body {
   width: 100vw;
 }
 section {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   background-color: black;
   color: white;
@@ -580,3 +580,6 @@ background-position: center;
   scale: 1.07;
 }
 
+footer{
+  /* min-height: ; */
+}

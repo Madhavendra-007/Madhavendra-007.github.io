@@ -1,3 +1,5 @@
+/* *****************************SECTION 1 MEDIA QUERRY***************************** */
+
 @media screen and (max-width:1300px) {
     .customScrollContainer {
         width: 4vw;
@@ -218,33 +220,49 @@ html{
     }
 }
 
-@media screen and (max-width: 430px){
-    html{
-        font-size: 8px;
-    }
+@media screen and (max-width: 435px){
+
     .section1Content{
         left: 4vw;
     }
     #name-container{
-        height:95px
+        height:95px;
+        font-size: 7rem;
     }
     #subHeading{
         height: 25px;
-        font-size: 1.4rem;
+        font-size: 1.25rem;
     }
     .description{
         width: 95vw;
         font-size: 1.8rem;
     }
 }
+@media screen and (max-width:400px){
+    .section1Content{
+        top: 20vh;
+    }
+    .description{
+        width: 95vw;
+        font-size: 2rem;
+    }
+    #description01{
+        height: 15vh;
+        margin-top: 5vh;
+    }
+    #description02{
+        height: 15vh;
+    }
+}
 
 @media screen and (max-width: 380px){
-    html{
-        font-size: 7px;
-    }
+
     .section1Content{
         left: 3vw;
         top:25vh;
+    }
+    #name-container{
+        height:95px
     }
     #subHeading{
         height: 30px;
@@ -314,13 +332,13 @@ html{
 }
 
 @media screen and (max-width: 850px){
-    #section2{
-        height: 160vh;
-    }
     .section2contentAlign{
         flex-direction: column;
-        height: 137vh;
+        height: 124vh;
+
+        /* flex-wrap: wrap; */
         align-items: center;
+        margin-bottom: 6vw;
     }
     #main-image {
         width: 400px;
@@ -350,7 +368,7 @@ html{
         left: 25vw;
     }
     .section2contentAlign{
-        height: 130vh;
+        height: 120vh;
     }
 
 }
@@ -369,7 +387,7 @@ html{
         left: 15vw;
     }
     .section2contentAlign{
-        height: 140vh;
+        height: 128vh;
     }
     .section2textContent{
         width: 85vw;
@@ -396,7 +414,7 @@ html{
 
 @media screen and (max-width: 542px){
     .section2contentAlign{
-        height: 132vh;
+        height: 120vh;
     }
 }
 @media screen and (max-width: 530px){
@@ -407,7 +425,7 @@ html{
 
 @media screen and (max-width: 507px){
     .section2contentAlign{
-        height: 136vh;
+        height: 125vh;
     }
 
 }
@@ -417,20 +435,16 @@ html{
     }
 }
 
-@media screen and (max-width: 486px){
-    .section2contentAlign{
-        height: 138vh;
-    }
-}
+
 @media screen and (max-width: 481px){
     #section2{
-        height: 180vh;
+        min-height: 155vh;
     }
     #main-image{
         left: 9vw;
     }
     .section2contentAlign{
-        height: 145vh;
+        height: 135vh;
     }
     .section2textContent{
         width: 90vw;
@@ -442,6 +456,9 @@ html{
         font-size: 1.8rem;
     }
 }
+@media screen and (max-width: 477px){
+
+}
 @media screen and (max-width: 460px){
     #main-image{
         left: 8vw;
@@ -451,11 +468,21 @@ html{
     #main-image{
         left: 6vw;
     }
+    #section2{
+        min-height:160vh ;
+    }
+    .section2contentAlign{
+        /* height: 130vh; */
+    }
 }
 @media screen and (max-width: 420px){
     #main-image{
         left: 3.5vw;
     }
+    #section2{
+        min-height:165vh ;
+    }
+
 }
 @media screen and (max-width: 405px){
     #main-image{
@@ -548,7 +575,7 @@ html{
 }
 @media screen and (max-width: 850px){
     #section3{
-        top: 280vh;
+        /* top: 280vh; */
         height: 280vh;
     }
     .section3contentAlign{
@@ -650,6 +677,6 @@ html{
 @media screen and (max-width: 850px){
     #section4{
         /* display: none; */
-        top: 560vh;
+        /* top: 560vh; */
     }
 }
