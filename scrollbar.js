@@ -8,7 +8,7 @@ function handleScrollPointClick(clickedPoint) {
   scrollPoints.forEach(scrollPoint => {
     // Set the background color of the clicked scroll point
     if (scrollPoint === clickedPoint) {
-      scrollPoint.style.background = 'radial-gradient(90% 90%, #ffffff 30%, #333 60.08%)';
+      scrollPoint.style.background = 'radial-gradient(70% 70%, #dd6b0d 30%, #171717 60.08%)';
     } else {
       scrollPoint.style.background = '#333';
     }
@@ -51,7 +51,7 @@ const observer = new IntersectionObserver((entries) => {
         }
       });
       
-      scrollPoint.style.background = 'radial-gradient(90% 90%, #ffffff 30%, #333 60.08%)';
+      scrollPoint.style.background = 'radial-gradient(70% 70%, #dd6b0d 30%, #171717 60.08%)';
     }
   });
 }, {
