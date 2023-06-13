@@ -378,11 +378,83 @@
         </div>
     </section>  
     <footer>
-        
-    </footer>
+        <div class="footerQuote">Explore | Evolve | Ascend</div>
+        <div class="footerContent">
+  
+          <div class="socialsContainer">
+              <div class="socialsCompleteBtn">
+  
+                  <div class="socialsBigDiv">
+                      <div class="socialLogo" id="linkedinLogo"></div>
+                      <div class="socialName" id="linkedinName">LinkedIn</div>
+                      <div class="socialId" id="linkedinId">/madhavendra</div>
+                  </div>
+                  <div class="chibiDog"></div>
+              </div>
+  
+      <div class="socialsCompleteBtn">
+  
+          <div class="socialsBigDiv">
+            <div class="socialLogo" id="githubLogo"></div>
+            <div class="socialName" id="githubName">Github</div>
+            <div class="socialId" id="githubId">/madhavendra007</div>
+          </div>
+          <div class="chibiDog"></div>
+              </div>
+          <!-- <div class="socialRow2align"> -->
+  
+              <div class="socialsCompleteBtn">
+              <div class="socialsBigDiv">
+                  <div class="socialLogo" id="mailLogo"></div>
+                  <div class="socialName" id="mailName">G-Mail</div>
+                  <div class="socialId" id="mailId">@madhavendrasinghnaruka</div>
+              </div>
+              <div class="chibiDog"></div>
+              </div>
+  
+  
+              <div class="socialsCompleteBtn">
+              <div class="socialsBigDiv">
+                  <div class="socialLogo" id="whatsappLogo"></div>
+                  <div class="socialName" id="whatsappName">Whatsapp</div>
+                  <div class="socialId" id="whatsappId">9829620291</div>
+              </div>
+              <div class="chibiDog"></div>
+              </div>
+          <!-- </div> -->
+  
+          <div class="socialsCompleteBtn">
+          <div class="socialsBigDiv">
+            <div class="socialLogo" id="callLogo"></div>
+            <div class="socialName" id="callName">Mobile</div>
+            <div class="socialId" id="callId">9829620291</div>
+          </div>
+          <div class="chibiDog"></div>
+              </div>
+        </div>
+      </div>
+  
+        <div class="copyright">
+          Designed & built by Madhavendra &#169; twentytwentythree
+        </div>
+      </footer>
 
     </div> 
 </body>
+<script>
+    function addLink(logoID,link,marginValue){
+      button=document.getElementById(logoID).parentElement;
+      button.addEventListener("click",()=>{
+          window.open(link);
+          button.style.marginLeft=marginValue;
+      })
+  }
+  addLink("linkedinLogo","https://www.linkedin.com/in/madhvendra-naruka-52b52621a/");
+      addLink("githubLogo","https://github.com/Madhavendra-007");
+  addLink("mailLogo","mailto:madhvendrasinghnaruka@gmail.com");
+  addLink("whatsappLogo","https://wa.me/9829620291");
+  addLink("callLogo","tel:9829620291");
+</script>
 <script src="scrollbar.js"></script>
 <script src="index.js"></script>
 </html>

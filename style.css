@@ -17,6 +17,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  overflow-y:none;
+}
 body {
   background: #000;
   overflow-x: hidden;
@@ -580,6 +583,215 @@ background-position: center;
   scale: 1.07;
 }
 
-footer{
-  /* min-height: ; */
+/* ****************************************************FOOTER STARTS HERE*********************************** * */
+footer {
+  min-height: 40vh;
+  width: 100%;
+  background-color: black;
+  border-top: 2px solid white;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  position:relative;
+}
+.footerQuote {
+  font-size: 2.8rem;
+  font-family: 'Fredoka', sans-serif;
+  color: whitesmoke;
+  font-weight: 500
+;
+}
+.footerContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  height: 60%;
+  padding-top: 2.5rem;
+}
+
+.socialsContainer{
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: end;
+  gap: 5rem;
+  width: 90%;
+  height: 25%;
+}
+.socialRow2align{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: center;
+  gap: 8rem;    
+}
+.socialsBigDiv {
+  --fullWidth: 200px;
+  --fullHeight: 37px;
+  height: var(--fullHeight);
+  width: var(--fullWidth);
+  background-color: rgb(226, 226, 226);
+  opacity: 0.95;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.socialsCompleteBtn{
+  display: flex;
+  justify-content: center;
+  align-items:end;
+}
+.chibiDog{
+  z-index: 0;
+  
+}
+
+.socialsCompleteBtn:hover > .chibiDog{
+  transform: translateY(-47px) scale(1.2);
+  transition: all 0.1s ease-out;
+  z-index: 4;
+  width: 118px;
+  height: 0px;
+  background-image: url("cat.gif");
+  background-size: cover;
+  position: absolute;
+  height: 100px;
+}
+.socialLogo {
+  height: calc(var(--fullHeight) + 5px);
+  width: calc(var(--fullHeight) + 5px);
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+
+.socialName {
+  font-size: 0.98rem;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  position: absolute;
+  width: var(--fullWidth);
+  /* height: 100%; */
+  text-align: center;
+  z-index: 1;
+}
+.socialId {
+  width: 0px;
+  height: 0px;
+  border-radius: 50px;
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  padding-left: 20px;
+  overflow: hidden;
+}
+
+.socialsBigDiv {
+  transition: all 0.5s ease;
+}
+.socialsBigDiv:hover > .socialId {
+  width: calc(var(--fullWidth) + 5px);
+  height: var(--fullHeight);
+}
+
+.socialsBigDiv > .socialId {
+  transition: all 0.5s ease;
+}
+
+.socialsBigDiv:hover > .socialLogo {
+  scale: 1.2;
+  rotate: 360deg;
+  transition: all 0.5s ease;
+  border: 1px solid #011e2d;
+}
+#linkedinLogo {
+  background-image: url("linkedIn.png");
+  background-size: 70%;
+  background-color: #0274b3;
+  border: 2px solid #011926;
+}
+#linkedinName {
+  color: #0274b3;
+}
+#linkedinId {
+  background-color: #0274b3;
+  color: #fff;
+}
+#githubLogo {
+  background-image: url("github.png");
+  background-size: 138%;
+  border: 2px solid #000;
+}
+#githubName {
+  color: #1f1f1f;
+}
+#githubId {
+  background-color: #1f1f1f;
+  color: #fff;
+  padding-left: 35px;
+}
+#whatsappLogo {
+  background-image: url("WhatsApp.svg.webp");
+  background-size: 75%;
+  background-color: #2ab73f;
+  border: 2px solid #086516;
+}
+#whatsappName {
+  color: #2ab73f;
+}
+#whatsappId {
+  background-color: #2ab73f;
+  color: #fff;
+}
+#mailLogo {
+  background-image: url("mail.png");
+  background-size: 101%;
+  background-color: #fff;
+  border: 2px solid rgb(120, 6, 6);
+}
+#mailName {
+  color: red;
+}
+#mailId {
+  background-color: red;
+  color: #fff;
+  font-size: 0.7rem;
+  padding-left: 30px;
+}
+#callLogo {
+  background-image: url("call.png");
+  background-size: 165%;
+  background-color: #fdd14c;
+  border: 2px solid #a77f05;
+}
+#callName {
+  color: #1a4043;
+}
+#callId {
+  background-color: #fdd14c;
+  color: #1a4043;
+  /* text-decoration: 2px solid #1a4043; */
+  font-weight: 600;
+  /* padding-left: 30px; */
+} 
+.copyright {
+  font-size: 0.8rem;
 }
