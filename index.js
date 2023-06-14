@@ -377,7 +377,8 @@ function section3Animation() {
 
 
 // *****************************section 4 STARTS HERE************************************
-
+ 
+// project PREVIEW WINDOW
 previewButton=document.querySelector(".loadWebsitePreviewButton");
 previewImg=document.querySelector(".websitePreviewImg");
 websitePreview=document.querySelector("iframe");
@@ -388,3 +389,49 @@ previewButton.addEventListener("click",function(){
   websitePreview.src="https://aquaregiafest.com";
 
 });
+
+var projectTitle = document.querySelectorAll(".projectTitle");
+
+projectTitle.forEach(element => {
+  var link = element.innerHTML;
+  console.log(link);
+  element.addEventListener("click", function(event) {
+    event.preventDefault(); // Prevents the default click behavior
+    window.open("https://" + link, "_blank"); // Opens the link in a new tab
+  });
+});
+
+// **********************************FOOTER STARTS HERE**************************************
+// footer ADD LINK AND LOGO
+function addLink(logoID,link){
+  button=document.getElementById(logoID).parentElement;
+  button.addEventListener("click",()=>{
+    setTimeout(()=>{
+      window.open(link);
+    },1000);
+  })
+}
+addLink("linkedinLogo","https://www.linkedin.com/in/madhvendra-naruka-52b52621a/");
+  addLink("githubLogo","https://github.com/Madhavendra-007");
+addLink("mailLogo","mailto:madhvendrasinghnaruka@gmail.com");
+addLink("whatsappLogo","https://wa.me/9829620291");
+addLink("callLogo","tel:9829620291");
+
+
+
+
+
+window.addEventListener('scroll', function() {
+  var scrollContainer = document.querySelector('.customScrollContainer');
+  var scrollSnapCont = document.querySelector('.scrollSnapCont');
+  if ((window.innerHeight + window.pageYOffset) >= document.scrollSnapCont.offsetHeight - 400) {
+    scrollContainer.style.transform = 'translateX(-250px)';
+    scrollContainer.style.transitionDuration = '.2s';
+    console.log("yoompopopopopoopopop")
+  } else {
+    scrollContainer.style.transform = 'translateX(0px)';
+    scrollContainer.style.transitionDuration = '.2s';
+  }
+});
+
+  
