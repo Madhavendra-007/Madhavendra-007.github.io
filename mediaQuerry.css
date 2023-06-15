@@ -1,7 +1,16 @@
 @media screen and (max-width:850px){
-.switchToPc{
-    display: flex;
+    .switchToPc{
+        display: flex;
+    }
 }
+@media screen and (max-width:600px){
+    .switchToPcImg{
+        width: 300px;
+        height: 140px;
+    }
+    .switchToPc{
+        gap: 100px;
+    }
 }
 
 
