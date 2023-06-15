@@ -1,3 +1,13 @@
+// ****************************SWITCH TO PC************************************
+
+var switchToPcBtn=document.querySelector('.switchToPcBtn');
+switchToPcBtn.addEventListener('click',()=>{
+  setTimeout(() => {
+    switchToPcBtn.parentElement.style.display='none';
+  }, 500);
+});
+
+
 // **************************Perpetual Animation Starts Here**********************
 
 function PerpetualAnimation(){
