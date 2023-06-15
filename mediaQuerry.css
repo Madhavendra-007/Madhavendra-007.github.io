@@ -471,9 +471,7 @@ html{
     #section2{
         min-height:160vh ;
     }
-    .section2contentAlign{
-        /* height: 130vh; */
-    }
+    
 }
 @media screen and (max-width: 420px){
     #main-image{
@@ -548,6 +546,7 @@ html{
 .specialityLevelGrey{
     width: 15vw;
 }
+
 }
 
 
@@ -578,6 +577,10 @@ html{
         /* top: 280vh; */
         height: 280vh;
     }
+    #section3{
+    background-repeat: repeat-y;
+    background-size: 250%;
+}
     .section3contentAlign{
         flex-direction: column;
         height: 260vh;
@@ -607,6 +610,7 @@ html{
     .specialityBigDiv{
         width: 55vw;
     }
+    
 }
 @media screen and (max-width: 670px){
     .specialityBigDiv{
@@ -649,6 +653,7 @@ html{
     .specialityLevelGrey{
         width: 40vw;
     }
+   
 }
 @media screen and (max-width: 430px){
     .specialityBigDiv{
@@ -678,10 +683,7 @@ html{
 }
 /* ***********************************SECTION 4 STARTS HERE*******************************************  */
 @media screen and (max-width: 850px){
-    #section4{
-        /* display: none; */
-        /* top: 560vh; */
-    }
+  
 }
 
 @media screen and (max-width: 750px){
