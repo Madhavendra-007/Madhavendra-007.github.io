@@ -166,7 +166,7 @@ border:2px solid white;
   width: 100vw;
 }
 section {
-  min-height: 100%;
+  min-height: 90%;
   width: 100vw;
   background-color: black;
   color: white;
