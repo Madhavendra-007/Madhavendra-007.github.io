@@ -79,10 +79,10 @@
 html{
     font-size: 13px;
 }
-.perpetualBox{
+/* .perpetualBox{
     height: 35px;
     width: 40px;
-}
+} */
 .section1Content{
     top: 20vh;
     left: 10vw;
@@ -105,7 +105,7 @@ html{
         font-size: 12px;
     }
     .scrollSnapCont{
-        /* scroll-snap-type: none; */
+        scroll-snap-type: none;
     }
     .perpetualBox{
         height: 35px;
