@@ -250,7 +250,7 @@ section {
   background-size: contain;
   z-index: 0;
   background-repeat: no-repeat;
-  transform: rotate(-12deg);
+  transform: rotate(-19deg);
 }
 .htmlBox {
   height: 100px;
@@ -422,7 +422,7 @@ section {
   background-image: url("section3BG.png");
   background-size: cover;
 }
-#section3headAlign {
+#sectionHeadAlign {
   height: 9vh;
   width: 100vw;
   display: flex;
@@ -430,9 +430,9 @@ section {
   margin-top: 1.25vh;
   
 }
-#section3heading {
+#sectionHeading {
   height: 100%;
-  width: 27vw;
+  width: 50vw;
 font-family: 'bangers', cursive;
 color: #FFFFFF;
 opacity: 0.69;

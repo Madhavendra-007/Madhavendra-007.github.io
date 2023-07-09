@@ -1,7 +1,5 @@
 @media screen and (max-width:850px){
-    .switchToPc{
-        display: flex;
-    }
+ 
 }
 @media screen and (max-width:600px){
     .switchToPcImg{
@@ -16,7 +14,26 @@
 
 /* *****************************SECTION 1 MEDIA QUERRY***************************** */
 
+@media screen and (max-width:1700px) {
+.perpetualBox{
+    transform: rotate(-15deg);
+}
+}
+@media screen and (max-width:1500px) {
+    .perpetualBox{
+        transform: rotate(-12deg);
+    }
+}
+@media screen and (max-width:1400px) {
+    #navbar{
+        width: 85%;
+        height:9vh;
+    }
+}
 @media screen and (max-width:1300px) {
+    .perpetualBox{
+        transform: rotate(-9deg);
+    }
     .customScrollContainer {
         width: 4vw;
     }
@@ -27,12 +44,7 @@
     }
 }
 
-@media screen and (max-width:1400px) {
-    #navbar{
-        width: 85%;
-        height:9vh;
-    }
-}
+
 @media screen and (max-width:1250px) {
     html{
         font-size:15px ;
@@ -92,9 +104,13 @@ html{
     html{
         font-size: 12px;
     }
+    .scrollSnapCont{
+        /* scroll-snap-type: none; */
+    }
     .perpetualBox{
         height: 35px;
         width: 40px;
+        transform: rotate(5deg);
     }
     .section1Content{
         top: 25vh;
@@ -196,6 +212,9 @@ html{
 }
 
 @media screen and (max-width:600px) {
+    .perpetualBox{
+        transform: rotate(11deg);
+    }
     html{
         font-size: 11px;
     }
@@ -237,7 +256,9 @@ html{
 }
 
 @media screen and (max-width: 435px){
-
+    .perpetualBox{
+        transform: rotate(20deg);
+    }
     .section1Content{
         left: 4vw;
     }
@@ -373,7 +394,7 @@ html{
     .section2description{
         font-size: 1.3rem;
     }
-    #section3heading{
+    #sectionHeading{
         font-size: 3.7rem;
     }
 }
@@ -530,7 +551,7 @@ html{
     .section2description{
         font-size: 1.8rem;
     }
-    #section3heading{
+    #sectionHeading{
         font-size: 4.5rem;
         width: 40vw;
     }
