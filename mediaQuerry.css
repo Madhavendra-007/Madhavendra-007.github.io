@@ -63,6 +63,9 @@
         height:9vh;
         background-image: url("navbarResized.png");
     }
+    .perpetualBox{
+        transform: rotate(-6deg);
+    }
     .description{
         width: 75vw;
         height:7vh
@@ -79,10 +82,9 @@
 html{
     font-size: 13px;
 }
-/* .perpetualBox{
-    height: 35px;
-    width: 40px;
-} */
+.perpetualBox{
+   transform: rotate(-0deg);
+}
 .section1Content{
     top: 20vh;
     left: 10vw;
@@ -108,7 +110,6 @@ html{
         scroll-snap-type: none;
     }
     .perpetualBox{
-        height: 35px;
         width: 40px;
         transform: rotate(5deg);
     }
