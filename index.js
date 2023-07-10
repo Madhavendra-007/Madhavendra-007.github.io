@@ -41,7 +41,7 @@ function moveBox(boxName,initialLeftValue,initialTopValue,finalLeftValue,finalTo
   moveBox(".bulbBox",'62.5%','-50px','100vw','37.5vh',"1.png",5000,1000);
   if (window.innerWidth>800 )
  {
-  moveBox(".notesBox",'75%','-50px','100vw','25vh',"7.png",4000,1000);
+  moveBox(".notesBox",'75%','-50px','100vw','25vh',"react js.png",4000,1000);
   moveBox(".chashmaBox",'87.5%','-50px','100vw','12.5vh',"8.png",3000,1000);
 }
 }

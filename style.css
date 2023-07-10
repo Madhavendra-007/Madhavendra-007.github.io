@@ -256,6 +256,16 @@ section {
 .htmlBox {
   height: 100px;
   background-size: 100%;
+  /* display: none; */
+}
+.bulbBox{
+  height:80px;
+  width: 100px;
+}
+.notesBox{
+  height: 70px;
+  width: 100px;
+  transform: rotate(-5deg);
 }
 /* ******************************************SECTION1 CONTENT******************************************  */
 #section1 {
