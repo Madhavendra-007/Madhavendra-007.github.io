@@ -172,9 +172,10 @@ section {
   color: white;
   border-bottom: 3px solid white;
   position: relative;
-  scroll-snap-align: end;
+  scroll-snap-align: start;
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
+
 ::-webkit-scrollbar {
   width: 0px;
 }

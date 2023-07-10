@@ -106,9 +106,12 @@ html{
     html{
         font-size: 12px;
     }
-    .scrollSnapCont{
-        scroll-snap-type: none;
+    section{
+        scroll-snap-align: none;
     }
+    #section1{
+        scroll-snap-align: end;
+      }
     .perpetualBox{
         width: 40px;
         transform: rotate(5deg);
