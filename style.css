@@ -258,11 +258,11 @@ section {
   background-size: 100%;
   /* display: none; */
 }
-.bulbBox{
+.wordpressBox{
   height:80px;
   width: 100px;
 }
-.notesBox{
+.reactjsBox{
   height: 70px;
   width: 100px;
   transform: rotate(-5deg);
