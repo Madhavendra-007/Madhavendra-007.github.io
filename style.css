@@ -259,6 +259,7 @@ section {
   /* display: none; */
 }
 .wordpressBox{
+  top:-100px;
   height:80px;
   width: 100px;
 }

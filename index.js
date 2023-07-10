@@ -38,7 +38,7 @@ function moveBox(boxName,initialLeftValue,initialTopValue,finalLeftValue,finalTo
   moveBox(".jsBox",'25%','-50px','100vw','75vh',"js.png",10000,715);
   moveBox(".cssBox",'37.5%','-50px','100vw','62.5vh',"css.png",11000,1000);
   moveBox(".htmlBox",'50%','-50px','100vw','50vh',"html.png",7000,1000);
-  moveBox(".wordpressBox",'62.5%','-50px','100vw','37.5vh',"wordpress.png",10500,2000);
+  moveBox(".wordpressBox",'62.5%','-50px','100vw','37.5vh',"wordpress.png",10500,2100);
   moveBox(".reactjsBox",'75%','-50px','100vw','25vh',"reactJS.png",4000,1000);
   if (window.innerWidth>800 )
  {
